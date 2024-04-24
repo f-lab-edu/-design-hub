@@ -2,7 +2,9 @@
   "name": "design-hub",
   "private": true,
   "workspaces": [
-    "packages/**"
+    "components/*",
+    "hooks",
+    "theme"
   ],
   "scripts": {
     "h": "pnpm -F @hub/hds",
