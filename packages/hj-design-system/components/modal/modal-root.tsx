@@ -12,12 +12,12 @@ import {
   ReactNode,
   forwardRef,
 } from "react";
-import { useScrollLock } from "../../hooks/use-scroll-lock";
+import { useScrollLock } from "../../../hooks/use-scroll-lock";
 import { Portal } from "../portal";
 import { AnimatePresence, motion } from "framer-motion";
 import { dimmedStyle } from "./styles/modal-root";
 import { ModalProvider } from "./modal-context";
-import { useKeyDown } from "../../hooks/use-key-down";
+import { useKeyDown } from "../../../hooks/use-key-down";
 import { defaultAnimationVariants } from "../../../theme/foundations/animation";
 
 type AnimatePresenceMode = ComponentProps<typeof AnimatePresence>;

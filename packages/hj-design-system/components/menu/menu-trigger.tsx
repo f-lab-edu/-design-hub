@@ -13,7 +13,7 @@ import {
 } from "react";
 import { MenuContext } from "./menu-context";
 import { triggerBaseStyle } from "./styles/menu-trigger";
-import { useClickOutSide } from "../../hooks/use-click-outside";
+import { useClickOutSide } from "../../../hooks/use-click-outside";
 import { css } from "@emotion/react";
 
 interface MenuTriggerProps extends ButtonHTMLAttributes<HTMLButtonElement> {
