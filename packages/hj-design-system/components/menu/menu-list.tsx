@@ -15,7 +15,7 @@ import {
   useContext,
   useMemo,
 } from "react";
-import { defaultAnimationVariants } from "../../theme/foundations/animation";
+import { defaultAnimationVariants } from "../../../theme/foundations/animation";
 import { MenuContext } from "./menu-context";
 import {
   getNavDirectionStyles,

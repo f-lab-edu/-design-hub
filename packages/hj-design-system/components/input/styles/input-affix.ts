@@ -1,6 +1,6 @@
 import { css, type SerializedStyles } from "@emotion/react";
 
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 import { type InputSizeSet, type InputVariant } from "../types";
 import { BACKGROUND_MAP, HEIGHT_MAP, PADDING_MAP } from "./base-input";
 

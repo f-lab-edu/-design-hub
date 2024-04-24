@@ -16,7 +16,7 @@ import {
 } from "react";
 import { ComboboxContext } from "./combobox-context";
 import { AnimatePresenceProps, motion } from "framer-motion";
-import { defaultAnimationVariants } from "../../theme/foundations/animation";
+import { defaultAnimationVariants } from "../../../theme/foundations/animation";
 import { listBaseStyle } from "./styles/combobox-list";
 
 type ComboboxListProps<C extends ElementType = "ul"> =

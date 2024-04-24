@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 
 export const base = css({
   position: "relative",

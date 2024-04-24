@@ -1,6 +1,6 @@
 import { SerializedStyles, css } from "@emotion/react";
 import { TabsSizeSet } from "../types";
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 
 export const getSizeStyle = (size: TabsSizeSet = 'md') => {
     const padding = PADDING_MAP[size];

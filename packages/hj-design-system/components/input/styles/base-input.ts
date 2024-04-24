@@ -1,6 +1,6 @@
 import { css, type SerializedStyles } from "@emotion/react";
 
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 import { type InputAddonProps, type InputAffixProps } from "../base-input";
 import { type InputSizeSet, type InputVariant } from "../types";
 

@@ -1,6 +1,6 @@
 import { css, type SerializedStyles } from "@emotion/react";
 
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 import { type ButtonSizeSet } from "../types";
 
 export const getSize = (size: ButtonSizeSet = "md"): SerializedStyles => {

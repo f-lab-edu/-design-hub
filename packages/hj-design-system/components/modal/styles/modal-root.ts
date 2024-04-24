@@ -1,5 +1,5 @@
 import { css } from "@emotion/react";
-import  zIndices  from '../../../theme/foundations/z-index';
+import  zIndices  from '../../../../theme/foundations/z-index';
 
 export const dimmedStyle = css({
     position: 'fixed',

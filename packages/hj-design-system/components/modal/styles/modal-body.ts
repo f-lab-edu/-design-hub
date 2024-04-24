@@ -1,6 +1,6 @@
 import { SerializedStyles, css } from "@emotion/react";
 import { ModalSizeSet } from "../types";
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 
 export const getModalBodySizeStyles = (size: ModalSizeSet='md'): SerializedStyles => {
     const fontSize = FONT_SIZE_MAP[size];

@@ -5,7 +5,7 @@ import { type ElementType, forwardRef, useMemo } from "react";
 import { css } from "@emotion/react";
 import { type PolymorphicRef } from "components/polymorphic";
 
-import { foundations } from "../../theme/foundations";
+import { foundations } from "../../../theme/foundations";
 import ButtonAddon from "./ButtonAddon";
 import { base, getColorScheme, getSize, getWidth } from "./styles";
 import { type ButtonProps } from "./types";

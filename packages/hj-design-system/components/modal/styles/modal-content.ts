@@ -1,5 +1,5 @@
 import { SerializedStyles, css } from "@emotion/react";
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 import { ModalSizeSet } from "../types";
 
 export const modalContentBaseStyle = css({

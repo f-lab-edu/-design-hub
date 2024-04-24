@@ -2,7 +2,7 @@ import { type ElementType } from "react";
 
 import { css, type SerializedStyles } from "@emotion/react";
 
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 import {
   type ButtonColorScheme,
   type ButtonProps,

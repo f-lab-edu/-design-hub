@@ -1,5 +1,5 @@
 import { css } from "@emotion/react";
-import { foundations } from "../../../theme/foundations";
+import { foundations } from "../../../../theme/foundations";
 
 export const modalControlBaseStyle = css({
     display: "flex",
